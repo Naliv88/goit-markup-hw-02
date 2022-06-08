@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+ul{
+    list-style: none;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+.logo-web{
+    color: blue;
+}

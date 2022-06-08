@@ -29,7 +29,6 @@ body {
     font-size: 26px;
     line-height: 1.19;
     color: var(--color-accent);
-
 }
 .logo:hover, .logo:focus{
     opacity: 0.7;
@@ -60,12 +59,14 @@ body {
     
         color: var(--color-text);
 }
+
 .contact-mail:hover,
  .contact-mail:focus, 
  .contact-phone:hover, 
  .contact-phone:focus{
     color: var(--color-accent);
 }
+
 /* Hero */
 .hero{
     color: var(--color-bg-first);
@@ -75,7 +76,6 @@ body {
     letter-spacing: 0.06em;
 }
 .hero-title{
-
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -111,10 +111,8 @@ body {
     color: var(--color-title);
 }
 .advantages .list-text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-
 }
 
 /* About */
@@ -131,7 +129,6 @@ body {
 .section.persons{
     background-color: var(--color-bg-second);
     line-height: 1.19;
-
 }
 .persons .list-item{
     background-color: var(--color-bg-first);
@@ -145,22 +142,18 @@ body {
         text-align: center;
 }
 .persons .list-text{
-        font-weight: 400;
         font-size: 16px;
         text-align: center;
 }
 /* Footer */
 footer{
-    background-color: var(--color-bg-hero);
-    
+    background-color: var(--color-bg-hero);    
 }
 
 .footer .logo-web {
     color: var(--color-bg-first);
-
 }
 .contact-addres{
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
     
@@ -183,7 +176,6 @@ footer{
     line-height: 1.62;
        
     text-align: center;
-
 }
 .filter-btn .button:hover, 
 .filter-btn .button:focus{
@@ -202,8 +194,7 @@ footer{
     color: var(--color-title);
 }
 .exampl-list .exempl-text{
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.88;
-
 }

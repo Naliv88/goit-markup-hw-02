@@ -1,10 +1,4 @@
-*, ::after, ::before{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-}
+
 :root{
     --color-title:#212121;
     --color-text: #757575;
@@ -18,6 +12,13 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     color: var(--color-text);
+    font-size: 14px;
+}
+.link{
+    text-decoration: none;
+}
+.list{
+     list-style: none;
 }
 
 /* header */
@@ -38,12 +39,12 @@ body {
 }
 /* Navigation */
 .nav-item{
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+    font-weight: 500;
+        
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
-        color: var(--color-title);
+    color: var(--color-title);
 }
 .nav-item:hover,
 .lnav-item:focus{
@@ -52,12 +53,11 @@ body {
 /* contact header */
 .contact-mail, 
 .contact-phone{
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     
-        color: var(--color-text);
+    color: var(--color-text);
 }
 
 .contact-mail:hover,
@@ -104,25 +104,24 @@ body {
 /* Advanteges */
 .advantages .list-title{
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    
+    font-size: 14px;
+
     color: var(--color-title);
 }
 .advantages .list-text{
-    font-size: 14px;
     line-height: 1.71;
 }
 
 /* About */
 .section .section-title{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
     
-        color: var(--color-title);
+    color: var(--color-title);
 }
 
 /* Persons */
@@ -136,14 +135,14 @@ body {
 
 
 .persons .list-title{
-        font-weight: 500;
-        font-size: 16px;
-        color: var(--color-title);
-        text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-title);
+    text-align: center;
 }
 .persons .list-text{
-        font-size: 16px;
-        text-align: center;
+    font-size: 16px;
+    text-align: center;
 }
 /* Footer */
 footer{
@@ -154,10 +153,9 @@ footer{
     color: var(--color-bg-first);
 }
 .contact-addres{
-        font-size: 14px;
-        line-height: 1.71;
+    line-height: 1.71;
     
-        color: var(--color-bg-first);
+    color: var(--color-bg-first);
 }
 
 

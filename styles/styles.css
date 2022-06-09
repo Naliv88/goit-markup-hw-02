@@ -50,6 +50,10 @@ body {
 .lnav-item:focus{
     color: var(--color-accent);
 }
+.current.nav-item{
+    color: var(--color-accent);
+    font-style: normal;
+}
 /* contact header */
 .contact-mail, 
 .contact-phone{
@@ -95,6 +99,8 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 10px 32px;
+
+    border: none;
 
 }
 .hero-btn:hover, .hero-btn:focus{
@@ -148,7 +154,9 @@ body {
 footer{
     background-color: var(--color-bg-hero);    
 }
-
+.contact.footer{
+    font-style: normal;
+}
 .footer .logo-web {
     color: var(--color-bg-first);
 }
@@ -156,6 +164,7 @@ footer{
     line-height: 1.71;
     
     color: var(--color-bg-first);
+    
 }
 
 
@@ -174,6 +183,8 @@ footer{
     line-height: 1.62;
        
     text-align: center;
+
+    border: none;
 }
 .filter-btn .button:hover, 
 .filter-btn .button:focus{
@@ -181,7 +192,11 @@ footer{
     color: var(--color-bg-first);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
+.current.button{
+    background-color: var(--color-accent);
+    color: var(--color-bg-first);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 /* article filter */
 .exampl-list .exempl-title{
     font-weight: 700;
@@ -195,4 +210,6 @@ footer{
 
     font-size: 16px;
     line-height: 1.88;
+
+    color: var(--color-text);
 }
